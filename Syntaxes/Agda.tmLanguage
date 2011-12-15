@@ -25,7 +25,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>storage.name.module.agda</string>
+					<string>storage.module.agda</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -83,13 +83,18 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*(record)\b</string>
+			<string>^\s*(record)\s+([^\(\)\{\}[:space:]=→λ∀?][^\(\)\{\}[:space:]]*)\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.other.agda</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>storage.record.agda</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -109,13 +114,18 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\b(data)\b</string>
+			<string>\b(data)\s+([^\(\)\{\}[:space:]=→λ∀?][^\(\)\{\}[:space:]]*)\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.other.agda</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>storage.data.agda</string>
 				</dict>
 			</dict>
 			<key>end</key>
