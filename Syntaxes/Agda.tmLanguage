@@ -75,7 +75,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(as|using|renaming|hiding|public)</string>
+					<string>\b(as|using|renaming|hiding|public)\b</string>
 					<key>name</key>
 					<string>keyword.other.agda</string>
 				</dict>
