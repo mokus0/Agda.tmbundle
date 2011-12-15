@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Agda</string>
+	<key>ordering</key>
+	<array>
+	</array>
+	<key>uuid</key>
+	<string>47BB291F-0C5A-4763-AF08-B4BF79F6E775</string>
+</dict>
+</plist>
